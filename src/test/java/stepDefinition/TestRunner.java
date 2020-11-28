@@ -11,11 +11,11 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src/test/resources/features/VerifyGetMethod.feature",
+		features = "src/test/resources/features/PUTRequest.feature",
 		glue = "stepDefinition",
 		plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 		monochrome = true
-		//tags = ("@datadriven")
+		,tags = ("@put")
 			)
 
 
